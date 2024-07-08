@@ -5,6 +5,9 @@ from cloudinary.models import CloudinaryField
 
 
 class About(models.Model):
+    """
+    Stores a single about me text.
+    """
     title = models.CharField(max_length=200)
     updated_on = models.DateTimeField(auto_now=True)
     content = models.TextField()
@@ -18,6 +21,9 @@ class About(models.Model):
 
 
 class CollaborateRequest(models.Model):
+    """
+    Stores collaborate name, email and message.
+    """
     name = models.CharField(max_length=200)
     email = models.EmailField()
     message = models.TextField()
