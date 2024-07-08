@@ -10,11 +10,13 @@ certifi==2023.11.17
 cffi==1.16.0
 charset-normalizer==3.3.2
 click==8.1.7
+cloudinary==1.36.0
 colorama==0.4.6
 crispy-bootstrap5==0.7
 cryptography==41.0.5
 defusedxml==0.7.1
 dj-database-url==0.5.0
+dj3-cloudinary-storage==0.0.6
 Django==4.2.13
 django-allauth==0.57.2
 django-crispy-forms==2.2
@@ -88,7 +90,7 @@ toolz==0.12.1
 tornado==6.4
 typing_extensions==4.8.0
 tzdata==2023.3
-urllib3==2.1.0
+urllib3==1.26.19
 watchdog==4.0.0
 webencodings==0.5.1
 Werkzeug==2.2.0
