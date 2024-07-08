@@ -11,7 +11,7 @@ class About(models.Model):
     profile_image = CloudinaryField(
         'image',
         default='placeholder'
-    )    
+    )
 
     def __str__(self):
         return self.title
@@ -24,5 +24,4 @@ class CollaborateRequest(models.Model):
     read = models.BooleanField(default=False)
 
     def __str__(self):
-        
         return f"Collaboration request from {self.name}"
